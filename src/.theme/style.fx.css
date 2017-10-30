@@ -1,0 +1,12 @@
+/* JavaFX CSS Style with -fx- prefix */
+
+.button {
+    -fx-background-color: white;
+    -fx-border-radius: 4px;
+    -fx-text-fill: #666666;
+    -fx-cursor: hand;    
+    -fx-effect: dropshadow(three-pass-box, gray, 10px, 0, 0, 0);
+}
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, gray, 5px, 0, 0, 0);
+}

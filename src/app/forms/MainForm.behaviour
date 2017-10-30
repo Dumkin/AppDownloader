@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="panelStart">
+    <behaviour animated="" opacity="0" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="panelStart_Close">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="0.25121951219512" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="panelStart_Settings">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="0.2468085106383" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="panelStart_Start">
+    <behaviour delay="0" duration="1000" initialOpacity="1" opacity="1" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

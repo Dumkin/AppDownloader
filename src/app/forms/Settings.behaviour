@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="Exit">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="0.25121951219512" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="Back">
+    <behaviour delay="0" duration="100" initialOpacity="1" opacity="0.2468085106383" repeatCount="-1" type="behaviour\custom\FadeAnimationBehaviour" when="HOVER"/>
+  </target>
+  <target id="Panel">
+    <behaviour animated="" opacity="0" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+</behaviours>
